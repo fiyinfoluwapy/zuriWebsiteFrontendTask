@@ -50,15 +50,21 @@ nav .btn{
     border-radius: 0;
     border-bottom-right-radius: 10px;
   }
+.row{
+    margin: auto;
+  }
 #hero{
     background-color: #ffffff;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
     color: #161617; 
-    padding-top: 220px;
+    padding-top: 150px;
     padding-bottom: 0;
     margin: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+   
 }
 .text-box h1{
     font-weight: 700;
@@ -70,8 +76,9 @@ nav .btn{
     font-size: 20px;
     color: #787878;
 }
-.text-box .styled-text{
+.styled-text{
     color: #e7332b;
+    font-size: 42px;
 }
 .col-sm-4{
     transform: translateY(-100%);
@@ -90,4 +97,46 @@ nav .btn{
 }
 .text-box  .btn-2{
     background-color: #585858;
+}
+.section-One-img {
+    width: 100%;
+    height: 356px;
+}
+#section-One{
+    background-image: url(images/backgroundImages/bgsection2.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+.flag-box{
+    display: inline-flex;
+}
+.flag-box img{
+    margin: 6px;
+    padding: 19px 0px 0px;
+}
+#section-two{
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+#skillsBtn{
+    margin: 15px;
+    background-color: #ffffff !important;
+    border: none;
+    color: #585858;
+    font-size: 16px;
+    box-shadow:  10px 10px -10px 1px  rgba(225, 225, 225, 0.7);
+}
+#skillsBtn:hover{
+    transform: translateY(-50%);
+    transition-duration: 3s;
+    box-shadow:  10px 10px 10px 1px  rgba(225, 225, 225, 0.7);
 }
