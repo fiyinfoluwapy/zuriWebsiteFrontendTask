@@ -1,3 +1,3 @@
 # zuriWebsiteFrontendTask
  
-https://pawsvlad.github.io/zuriWebsiteFrontendTask/
+https://fiyinfoluwapy.github.io/zuriWebsiteFrontendTask/
